@@ -7,7 +7,7 @@ import bpy
 bl_info = {
     "name": "Polygon Selector",
     "author": "Moonlight_",
-    "version": (1, 0, 0),
+    "version": (1, 0, 1),
     "blender": (4, 0, 0),
     "category": "Select",
     "location": "View3D > Sidebar > Triangle Selector",
@@ -25,17 +25,8 @@ bpy.types.Scene.object_type = bpy.props.EnumProperty(
         ('MESH', 'Mesh', 'Mesh objects'),
         ('CURVE', 'Curve', 'Curve objects'),
         ('SURFACE', 'Surface', 'Surface objects'),
-        ('META', 'Meta', 'Metaball objects'),
-        ('FONT', 'Font', 'Text objects'),
         ('ARMATURE', 'Armature', 'Armature objects'),
-        ('LATTICE', 'Lattice', 'Lattice objects'),
         ('EMPTY', 'Empty', 'Empty objects'),
-        ('GPENCIL', 'Grease Pencil', 'Grease pencil objects'),
-        ('CAMERA', 'Camera', 'Camera objects'),
-        ('LIGHT', 'Light', 'Light objects'),
-        ('LIGHT_PROBE', 'Light Probe', 'Light probe objects'),
-        ('SPEAKER', 'Speaker', 'Speaker objects'),
-        ('VOLUME', 'Volume', 'Volume objects')
     ],
     default='MESH'
 )
