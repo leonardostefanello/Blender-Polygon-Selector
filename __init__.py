@@ -7,7 +7,7 @@ import bpy
 bl_info = {
     "name": "Polygon Selector",
     "author": "Moonlight_",
-    "version": (1, 1, 0),
+    "version": (2, 0, 0),
     "blender": (2, 80, 0),
     "category": "Object",
     "location": "3D Viewport > Sidebar > Polygon Selector",
